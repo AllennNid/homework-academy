@@ -1,0 +1,54 @@
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .offer {
+        width: 500px;
+    }
+    .actions {
+        width: 20px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        width: 690px;
+        display: block;
+    }
+    .offer {
+        width: 680px;
+    }
+    .actions {
+        width: 690px;
+        display: flex;
+        padding-bottom: 50px;
+    }
+    .table1 table {
+        width: 360px;
+        margin-right: 10px;
+    }
+    .table2 table {
+        width: 270px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+    .offer {
+        width: 560px;
+        margin: 0 auto;
+    }
+    .actions {
+        width: 560px;
+        display: flex;
+        flex-direction: column;
+    }
+    .table1 table {
+        width: 560px;
+    }
+    .table2 table {
+        width: 560px;
+        margin-top: 20px;
+    }
+}
